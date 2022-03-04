@@ -31,12 +31,12 @@ p{
     font-family: 'Abril Fatface', cursive;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
-    color: rgb(83, 81, 81);
-} */
+
+/* } */
 
 body{
     font-family: Poppins;
-    border: 0px;
+    margin: 0px;
 }
 .mission-2022{
     font-family: 'Abril Fatface';
@@ -45,8 +45,7 @@ body{
     font-size: 30px;
     margin-right: 5%;
     padding-left: 10px;
-    /* width: 30px; */
-    /* height: 300px; */
+    
     border-left: 5px solid;
     border-image: linear-gradient( tomato, rgb(238, 157, 28));
     border-image-slice: 1;
@@ -76,7 +75,7 @@ p{
 .about-me{
     margin-top: 30px;
 }
-div img{
+.image-first-part img{
     width: 400px;
     height: 500px;
     
@@ -188,4 +187,96 @@ div img{
 }
 .develop-description{
     margin-left: -900px;
+}
+
+
+
+/* ------------3rd Container--------------- */
+
+.community-headline{
+    font-size: 2em;
+    font-weight: 900;
+}
+.community-para{
+    font-weight: 200;
+    width: 550px;
+}
+.community-link a{
+    text-decoration: none;
+    background-image: linear-gradient(orange, Tomato) ;
+    padding: 10px;
+    border-radius: 5px;
+}
+.community-image img{
+    width: 650px;
+    height: 650px;
+    margin-left: 10px;
+}
+.container-3{
+    display: flex;
+    margin-left: 150px ;
+}
+
+/* ------------Container-part-five---------------- */
+
+.stay-image img{
+    margin-top: -150px;
+    margin-left: 280px;
+    width: 700px;
+    height: 700px;
+}
+.stay-headline{
+    margin-left: 480px;
+    margin-top: -200px;
+    font-weight: 800;
+    font-size: 2em;
+}
+
+.stay-para{
+    margin-left: 360px ;
+    margin-top: -20px;
+    font-weight: bolder;
+    color: rgb(71, 70, 70);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* -------------Footer----------- */
+
+
+footer{
+    background-color: rgba(0, 0, 0, 0.877);
+    color: aliceblue;
+    height: 150px;
+    
+}
+footer div{
+    margin-left: 42%;
+    padding-top: 10px;
+}
+#footer{
+    font-size: 35px;
+    font-family: 'Abril Fatface', cursive;
+    font-family: 'Permanent Marker', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Satisfy', cursive;
+}
+#footer-para{
+    color: aliceblue;
+    margin-left: -90px ;
+    margin-top: -25px;
+    font-size: 15px;
 }
